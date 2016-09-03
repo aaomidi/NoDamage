@@ -1,0 +1,26 @@
+name: NoDamage
+main: com.aaomidi.nodamage.NoDamage
+version: 1.0
+commands:
+  nd:
+    description: Basic commands for NoDamage.
+    aliases: [nd, nodmg]
+    permission: nodamage
+  nd toggle:
+    description: Toggle damages.
+    permission: nodamage
+  nd toggle drowning:
+    description: Toggle drowning damage.
+    permission: nodamage.drowning
+  nd toggle explosion:
+    description: Toggle explosion damage.
+    permission: nodamage.explosion
+  nd toggle fall:
+    description: Toggle fall damage.
+    permission: nodamage.fall
+  nd toggle fire:
+    description: Toggle fire damage.
+    permission: nodamage.fire
+  nd toggle lava:
+    description: Toggle lava damage.
+    permission: nodamage.lava
